@@ -1,0 +1,12 @@
+.myhomeImg{
+    background-image: url("../../asset/images/backbroun_mer.jpg");
+    width: 100%;
+    height: 110vh;
+    background-size: cover;
+    position: relative;
+    background-position: left;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding-bottom: 195px;
+}
+

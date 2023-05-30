@@ -1,0 +1,50 @@
+[
+    {
+        "title":"conversion",
+        "path":"/private/privateHome",
+        "icon":"bi bi-currency-exchange"
+    },
+    {
+        "title":"Accueil",
+        "path":"/privateHome",
+        "icon":"bi bi-house-check-fill"
+    },
+    {
+        "title":"Compte",
+        "path":"/compte",
+        "icon":"bi bi-person-circle"
+    },
+    {
+        "title":"Publication",
+        "icon":"bi-train-lightrail-front-fill",
+        "childrens":[
+            {
+                "title":"nouvelle publication",
+                "path":"/NewPublication",
+                "icon":"bi bi-file-plus-fill"
+            },
+            {
+                "title":"Notificatio",
+                "path":"/Notification",
+                "icon":"bi bi-bell-fill" 
+            },
+            {
+                "title":"Echanges éffectués",
+                "path":"/echange",
+                "icon":"bi bi-card-list"
+            }
+        ]
+    },
+    {
+        "title":"Contats",
+        "icon":"bi bi-person-lines-fill",
+        "childrens":[
+            {
+                "title":"Chat",
+                "path":"/chat",
+                "icon":"bi bi-chat-dots-fill"
+            }
+        ]
+    }
+    
+]
