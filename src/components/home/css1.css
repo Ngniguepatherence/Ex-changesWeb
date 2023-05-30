@@ -1,0 +1,124 @@
+.corps{
+	background-color: rgb(249, 251, 253);
+}
+.arrierPlan{
+    /* background-image: url("../../asset/images/accueilback.jpg"); */
+    height: 90vh;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.nave1{
+	color: aliceblue;
+	justify-content: space-between;
+
+}
+.Big_div{
+	margin:0px 550px 80px 0px;
+}
+.para{
+	color: rgb(248, 248, 248);
+	margin:0px 5px 0px 10px;
+
+}
+.para1{
+	font-style: italic;
+	font-size: 75px;
+}
+.paras1{
+	font-style: italic;
+	font-size: 75px;
+	color: rgb(3, 78, 148);
+}
+.para2{
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	font-size: 20px;
+	margin-left:30px ;
+}
+.para3{
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	font-size: 20px;
+	margin-left:30px ;
+	color: rgb(6, 54, 99);
+}
+
+.btnLogin{
+	display: block;
+	margin-top: 40px ;
+
+}
+.btnLogins{
+	display: block;
+	margin-top: 40px ;
+	margin-bottom: 150px;
+
+}
+.btnLogin3{
+	display: block;
+	margin-top: 40px ;
+	margin-bottom: 22px;
+
+}
+.butt{
+	border: none;
+	color: #fff;
+	text-decoration: none;
+	font-size: 18px;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	background-color:rgb(33, 110, 234);
+	padding: 17px 75px;
+	border-radius: 35px;
+	margin-left:35px ;
+	transition: .1s;
+
+}
+
+.butt:focus{
+	color: aliceblue;
+	background-color: rgb(84, 144, 240);
+}
+.butt:hover{
+	color: rgb(255, 255, 255);
+	background-color: rgb(84, 144, 240);
+}
+.butts:focus{
+	color: rgb(223, 77, 87);
+	background-color: rgb(240, 198, 84);
+}
+.butts:hover{
+	color:rgb(223, 77, 87);
+	background-color: rgb(219, 240, 84);
+}
+.text1{
+	color: rgb(3, 3, 38);
+	display: block;
+	margin-bottom: 70px;
+}
+.acl{
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	font-size: 100px;
+	margin-bottom: 90px;
+
+}
+.cont{
+	display: contents;
+	
+}
+.image2{
+	height: 75vh;
+}
+.butts{
+	border: none;
+	color: #fff;
+	text-decoration: none;
+	font-size: 18px;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	background-color:rgb(234, 177, 33);
+	padding: 17px 75px;
+	border-radius: 35px;
+	margin-left:35px ;
+	transition: .1s;
+
+}
+.montextA{
+	text-align: center;
+}

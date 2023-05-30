@@ -1,0 +1,48 @@
+.mains{
+    background-color: rgb(242, 242, 248);
+}
+.content_b{
+ background-color: rgb(240, 244, 245);
+}
+.nav-cont{
+ background-color: rgb(224, 226, 230);
+ float: right;
+ color:#171717;
+ width: 97%;
+ height: 9vh;
+ box-shadow: 2px 1px 8px#000f00;
+ 
+}
+.param{
+    background-color: rgba(244, 244, 250, 0.711);
+    width: 16%;
+    padding: 2px ;
+    padding-left: 25px;
+    margin-top: 6px;
+    float: right;
+    margin-right: 34px;
+    border-radius: 10px;
+    display: flex;
+}
+.iconstyle{
+    font-size: 32px;
+}
+.param p{
+    text-align: center;
+    font-size: 19px;
+    margin-left: 15px;
+    margin-top: 10px;
+
+}
+.param:hover{
+    background-color: rgba(244, 244, 250, 0.905);
+    cursor: pointer;
+}
+.iconstyleMenu{
+    font-size: 42px;
+    color: black;
+    margin-top: 8px;}
+.iconstyleMenu:hover{
+    background-color: rgb(206, 218, 228);
+}
+
