@@ -1,0 +1,16 @@
+
+.divider:after,
+.divider:before {
+  content: "";
+  flex: 1;
+  height: 1px;
+  background: #eee;
+}
+.lienhome{
+    color: rgb(84, 144, 240);
+    font-size: 36px;
+    display: flex;
+
+}
+
+
