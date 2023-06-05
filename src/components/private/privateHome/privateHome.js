@@ -1,4 +1,5 @@
-import React from 'react';
+import {React} from 'react';
+import {useState} from 'react';
 // import 'bootstrap/dist/css/bootstrap.min.css';
 // import 'bootstrap-icons/font/bootstrap-icons.css'
 // import { NavLink } from 'react-router-dom';
@@ -15,13 +16,14 @@ import {
 from 'mdb-react-ui-kit';
 import Conversion from '../../../Conversion';
 import CurrencyProvider from '../../../context/CurrencyContext';
-// import '@fontsource/roboto/300.css';
-// import '@fontsource/roboto/400.css';
-// import '@fontsource/roboto/500.css';
-// import '@fontsource/roboto/700.css';
-
+import ProfileModal from '../../modal/formprofileUser';
 
 export default function privateHome() {
+
+  const modal=()=>{
+    return <ProfileModal  />;
+  }
+  
   return (
     <MDBContainer fluid className="p-0 my-0 content_b">
       <MDBRow>
@@ -31,7 +33,7 @@ export default function privateHome() {
         <MDBCol col='1' md='10'>
           <div className='nav-cont'>
             <i className="bi bi-list iconstyleMenu"></i>
-            <div className='param'>
+            <div className='param' onClick={modal}>
                 <i className='bi bi-gear-fill iconstyle'></i>
                 <p>Compte</p>
             </div>
