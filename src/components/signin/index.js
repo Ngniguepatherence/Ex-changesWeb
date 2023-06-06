@@ -33,12 +33,21 @@ const Signin=()=>{
         pwd:"",
     };
     const navigate = useNavigate();
+    const user = auth.currentUser;
+
     async function signinCompte(formValues, onSubmittingProps){
        try{
         await signInWithEmailAndPassword(auth, formValues.email,formValues.pwd);
         //nettoyer le formulaire
         onSubmittingProps.resetForm();
-        navigate( "/private/privateHome");
+        if (user.emailVerified) {
+          // User's email is verified.
+          navigate( "/private/privateHome");
+      } else {
+        // User's email is not verified.
+        alert("Le mail de ce compte n'a pas été verifier. Veillerz vous assurer que cela est fait ou bien creer un nouveau compte")
+      }
+        
        }catch(error){
         // alert(error);
         if(error == "FirebaseError: Firebase: Error (auth/network-request-failed)."){

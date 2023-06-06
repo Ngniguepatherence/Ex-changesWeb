@@ -43,12 +43,7 @@ async function createUser(formValues, onSubmittingProps){
       sendEmailVerification(userCredential.user)
         .then(() => {
           // Email sent.
-          // if (user.emailVerified) {
-          //     // User's email is verified.
-          //     navigate("../signin");
-          // } else {
-          //   // User's email is not verified.
-          // }
+          window.localStorage(user.id)
           navigate("../signin");
         })
         .catch((error) => {
