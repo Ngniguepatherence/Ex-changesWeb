@@ -6,7 +6,7 @@
     },
     {
         "title":"Accueil",
-        "path":"/privateHome",
+        "path":"/",
         "icon":"bi bi-house-check-fill"
     },
     {

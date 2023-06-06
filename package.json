@@ -27,9 +27,12 @@
     "react-bootstrap": "^2.7.4",
     "react-cards": "^0.2.2",
     "react-dom": "^18.2.0",
+    "react-firebase-hooks": "^5.1.1",
+    "react-redux-firebase": "^3.11.0",
     "react-responsive-carousel": "^3.2.23",
     "react-router-dom": "^6.10.0",
     "react-scripts": "^5.0.1",
+    "redux-firestore": "^2.0.1",
     "web-vitals": "^2.1.4",
     "yup": "^1.1.0"
   },
