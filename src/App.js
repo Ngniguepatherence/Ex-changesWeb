@@ -12,6 +12,8 @@ import ServiceChat from './components/apropos/serviceChat';
 import NewPub from './components/publication/NewAnnonce';
 import Notif from './components/publication/notification';
 import Echange from './components/publication/listExchange';
+import Reset from './components/reset'
+import Profil from './components/modal/formprofileUser'
 
 function App() {
     return ( 
@@ -31,6 +33,8 @@ function App() {
                 <Route  path='/NewPublication' Component={NewPub}/>
                 <Route  path='/Notification' Component={Notif}/>
                 <Route  path='/echange' Component={Echange}/>
+                <Route  path='/reset' Component={Reset}/>
+                <Route  path='/compte' Component={Profil}/>
                 </Routes>
         </BrowserRouter>
     );
